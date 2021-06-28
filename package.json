@@ -9,7 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "tsc -b packages"
+    "build": "tsc -b packages",
+    "format": "prettier --write \"**/{*.{js,jsx,ts,tsx,css,json},.*rc}\""
   },
   "scripty": {
     "path": "./scripts/workspace"
@@ -18,6 +19,7 @@
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "eslint": "^7.29.0",
+    "prettier": "^2.3.2",
     "scripty": "^2.0.0"
   }
 }
