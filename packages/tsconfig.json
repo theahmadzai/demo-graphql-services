@@ -4,6 +4,7 @@
     { "path": "utils" },
     { "path": "types" },
     { "path": "gateway" },
-    { "path": "auth" }
+    { "path": "auth" },
+    { "path": "stores" }
   ]
 }

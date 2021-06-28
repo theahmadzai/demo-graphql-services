@@ -4,7 +4,10 @@ import { ApolloGateway } from '@apollo/gateway'
 
 async function start() {
   const gateway = new ApolloGateway({
-    serviceList: [{ name: 'auth', url: 'http://localhost:4001' }],
+    serviceList: [
+      { name: 'auth', url: 'http://localhost:4001' },
+      { name: 'stores', url: 'http://localhost:4002' },
+    ],
   })
 
   const app = express()
