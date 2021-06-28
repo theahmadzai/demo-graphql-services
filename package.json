@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "demo-graphql-services",
+  "version": "1.0.0",
+  "description": "Demo Graphql Services & Monorepos",
+  "main": "index.js",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b packages"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.29.0",
+    "scripty": "^2.0.0"
+  }
+}
